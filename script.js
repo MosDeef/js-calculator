@@ -29,6 +29,8 @@ operand_btns.forEach((btn) => {
     } else {
       output.value = output.value + "" + e.target.value;
     }
+    const clear_btn = document.querySelector("button[data-type=clear]");
+    clear_btn.innerHTML = "C";
   });
 });
 

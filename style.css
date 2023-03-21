@@ -32,7 +32,7 @@ input[type="text"] {
 }
 #main {
   border: 2px solid #0fe561;
-  border-radius: 25px;
+  border-radius: 10px;
   width: 100%;
   max-width: 280px;
   background-color: #000000;
